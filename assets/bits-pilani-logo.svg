@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a237e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#283593;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="200" rx="12" ry="12" fill="url(#bg)"/>
+
+  <!-- Shield outline -->
+  <path d="M70,35 L120,35 L120,95 L95,120 L70,95 Z" fill="none" stroke="#ffd54f" stroke-width="3"/>
+  <!-- Inner shield -->
+  <path d="M76,42 L114,42 L114,90 L95,112 L76,90 Z" fill="#1a237e" stroke="#ffd54f" stroke-width="1.5"/>
+  <!-- Lamp of knowledge -->
+  <ellipse cx="95" cy="62" rx="8" ry="6" fill="none" stroke="#ffd54f" stroke-width="1.5"/>
+  <line x1="95" y1="56" x2="95" y2="48" stroke="#ffd54f" stroke-width="1.5"/>
+  <line x1="91" y1="50" x2="99" y2="50" stroke="#ffd54f" stroke-width="1.5"/>
+  <!-- Flame -->
+  <path d="M93,48 Q95,42 97,48" fill="none" stroke="#ffd54f" stroke-width="1.5"/>
+  <!-- Book -->
+  <path d="M83,78 L95,73 L107,78 L95,83 Z" fill="none" stroke="#ffd54f" stroke-width="1.2"/>
+  <line x1="95" y1="73" x2="95" y2="83" stroke="#ffd54f" stroke-width="1"/>
+  <!-- Stars -->
+  <circle cx="85" cy="93" r="2" fill="#ffd54f"/>
+  <circle cx="95" cy="98" r="2" fill="#ffd54f"/>
+  <circle cx="105" cy="93" r="2" fill="#ffd54f"/>
+
+  <!-- University name -->
+  <text x="155" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="bold" fill="#ffffff" letter-spacing="4">BITS PILANI</text>
+
+  <!-- Full name -->
+  <text x="155" y="105" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#bbdefb" letter-spacing="2">BIRLA INSTITUTE OF TECHNOLOGY &amp; SCIENCE</text>
+
+  <!-- Motto -->
+  <text x="155" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#ffd54f" font-style="italic" letter-spacing="1">Knowledge is the Supreme Goal</text>
+
+  <!-- Decorative line -->
+  <line x1="155" y1="140" x2="530" y2="140" stroke="#ffd54f" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- Established -->
+  <text x="155" y="160" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#90caf9" letter-spacing="1">ESTABLISHED 1964 • PILANI | GOA | HYDERABAD | DUBAI</text>
+</svg>
